@@ -1,5 +1,10 @@
+[![Open In Colab](img/colab.svg)](https://colab.research.google.com/drive/1RupAVB60jXwPt4i72isuA2aSZojNDVcm#scrollTo=dFjRJMivbEtx)
+
+
 Refering the article by Piyush on Vertex AI [here](https://medium.com/@piyushpandey282/model-serving-at-scale-with-vertex-ai-custom-container-deployment-with-pre-and-post-processing-12ac62f4ce76)
 Move to a better article by chavez should handle retraining as well[here](https://medium.com/@jchavezar/ml-from-local-to-production-vertex-ai-d3b09998008c)
+
+
 
 Latex Cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
