@@ -26,7 +26,7 @@ apt install nano
 
 gcloud beta artifacts repositories create testrepo \
  --repository-format=docker \
- --location=us-central1. \
+ --location=us-central1 \
  --project=zeta-yen-319702
 
 curl -X POST -d "@sampleinput.json" -H "Content-Type: application/json" http://localhost:5005/predict
@@ -60,14 +60,13 @@ gcloud beta ai endpoints create \
   --region=us-central1  \
   --display-name=customeend
 
-gcloud beta ai endpoints deploy-model 1104745303124213760 \
+gcloud beta ai endpoints deploy-model 2942213951091376128 \
   --region=us-central1 \
-  --model=8054560390203310080 \
+  --model=7839513507996368896 \
   --display-name=custom \
   --machine-type=n1-standard-2 \
   --min-replica-count=1 \
   --max-replica-count=1 \
   --traffic-split=0=100 
 
-  git config --global user.name "ibrezm"
-  git config --global user.email "ibrezm1@gmail.com"
+
